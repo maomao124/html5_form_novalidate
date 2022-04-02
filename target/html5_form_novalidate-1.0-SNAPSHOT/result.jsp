@@ -24,7 +24,13 @@
 <body>
 <%
     request.setCharacterEncoding("utf-8");
-    String search = request.getParameter("search");
+    String email = request.getParameter("email");
+    String number = request.getParameter("number");
 %>
+邮箱：
+<%=email%>
+<br>
+数字：
+<%=number%>
 </body>
 </html>
